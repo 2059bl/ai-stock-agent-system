@@ -1,0 +1,21 @@
+# 基礎依賴
+python-dotenv>=1.0.0
+logging>=0.5.1.2
+
+# 資料庫依賴
+psycopg2-binary>=2.9.0  # PostgreSQL 連接
+
+# 網路請求依賴
+requests>=2.28.0        # API 調用
+
+# AI 相關依賴
+ollama>=0.1.0          # Ollama 客戶端
+transformers>=4.30.0   # AI 模型
+torch>=2.0.0          # 深度學習框架
+
+# 資料處理依賴
+pandas>=2.0.0         # 資料處理
+numpy>=1.24.0         # 數值計算
+
+# 其他依賴
+pyyaml>=6.0           # YAML 處理
