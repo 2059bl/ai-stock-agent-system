@@ -1,0 +1,39 @@
+# Stock AI Agent
+
+這是一個基於 Zeabur 生態系統的股票 AI 代理服務，整合了 PostgreSQL、Ollama 和 n8n 工作流。
+
+## 功能特性
+
+- 📊 股票數據分析
+- 🤖 Ollama AI 模型集成
+- 🗄️ PostgreSQL 資料庫連接
+- 🔄 n8n 工作流自動化
+
+## 環境變數
+
+Zeabur 會自動提供以下環境變數：
+
+- `PG_CONNECTION_STRING`: PostgreSQL 連接字串
+- `OLLAMA_API_URL`: Ollama API URL (默認: http://ollama:11434)
+- `N8N_WEBHOOK_URL`: n8n webhook URL
+
+## 部署說明
+
+1. 上傳此資料夾到 GitHub
+2. 在 Zeabur 中配置 stock-ai-agent 服務
+3. 提供 GitHub 倉庫 URL 或上傳文件
+4. 配置環境變數
+5. 部署服務
+
+## 依賴包
+
+請確保 requirements.txt 中的依賴包已安裝：
+
+- psycopg2-binary
+- requests
+- ollama
+- transformers
+- torch
+- pandas
+- numpy
+- pyyaml
